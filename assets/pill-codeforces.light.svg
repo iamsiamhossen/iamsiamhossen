@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="138" height="38" viewBox="0 0 138 38" role="img" aria-label="Codeforces">
+  <rect x="0.5" y="0.5" width="137" height="37" rx="18.5" fill="#f6f8fa" stroke="#d0d7de"/>
+  <g transform="translate(15,10) scale(0.75)"><rect x="0" y="7.5" width="6" height="13.5" rx="1.5" fill="#f5b921"/><rect x="9" y="3" width="6" height="18" rx="1.5" fill="#2f95d6"/><rect x="18" y="10.5" width="6" height="10.5" rx="1.5" fill="#d32f3f"/></g>
+  <text x="41" y="24.5" font-family="-apple-system, 'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="15" font-weight="500" fill="#1f2328">Codeforces</text>
+</svg>

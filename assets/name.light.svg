@@ -1,7 +1,7 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="400" height="100" viewBox="0 0 400 100" role="img" aria-label="Siam Hossen">
+<svg xmlns="http://www.w3.org/2000/svg" width="400" height="126" viewBox="0 0 400 126" role="img" aria-label="Siam Hossen">
   <g fill="none" stroke="#1a9f3a" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round">
-    <polyline points="4,6 17,17 4,28"/>
-    <line x1="23" y1="30" x2="38" y2="30"/>
+    <polyline points="2,6 15,17 2,28"/>
+    <line x1="21" y1="30" x2="36" y2="30"/>
   </g>
-  <text x="2" y="88" font-family="-apple-system, 'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="54" font-weight="700" fill="#1f2328">Siam Hossen</text>
+  <text x="0" y="100" font-family="-apple-system, 'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="54" font-weight="700" fill="#1f2328">Siam Hossen</text>
 </svg>

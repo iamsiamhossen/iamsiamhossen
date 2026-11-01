@@ -83,44 +83,67 @@ def write(name, content):
 
 
 def name_svg(t):
-    # terminal icon + name only (subtitle and text are real HTML in README.md)
-    return f"""<svg xmlns="http://www.w3.org/2000/svg" width="400" height="100" viewBox="0 0 400 100" role="img" aria-label="Siam Hossen">
+    return f"""<svg xmlns="http://www.w3.org/2000/svg" width="400" height="126" viewBox="0 0 400 126" role="img" aria-label="Siam Hossen">
   <g fill="none" stroke="{t['green']}" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round">
-    <polyline points="4,6 17,17 4,28"/>
-    <line x1="23" y1="30" x2="38" y2="30"/>
+    <polyline points="2,6 15,17 2,28"/>
+    <line x1="21" y1="30" x2="36" y2="30"/>
   </g>
-  <text x="2" y="88" font-family="{FONT}" font-size="54" font-weight="700" fill="{t['text']}">Siam Hossen</text>
+  <text x="0" y="100" font-family="{FONT}" font-size="54" font-weight="700" fill="{t['text']}">Siam Hossen</text>
 </svg>
 """
 
 
 def accent(t):
-    return f"""<svg xmlns="http://www.w3.org/2000/svg" width="48" height="6" viewBox="0 0 48 6" role="presentation">
-  <rect x="0" y="1" width="46" height="3.5" rx="1.75" fill="{t['green']}"/>
+    return f"""<svg xmlns="http://www.w3.org/2000/svg" width="48" height="16" viewBox="0 0 48 16" role="presentation">
+  <rect x="0" y="8" width="46" height="3.5" rx="1.75" fill="{t['green']}"/>
 </svg>
 """
 
 
-def link_email(t):
-    g = t["green"]
-    return f"""<svg xmlns="http://www.w3.org/2000/svg" width="96" height="34" viewBox="0 0 96 34" role="img" aria-label="Email">
-  <g fill="none" stroke="{g}" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
-    <rect x="3" y="9" width="22" height="16" rx="3"/>
-    <polyline points="4,11 14,19 24,11"/>
-  </g>
-  <text x="34" y="23.5" font-family="{FONT}" font-size="18" fill="{g}">Email</text>
+LINKEDIN_PATH = ("M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046"
+                 "c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 "
+                 "2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 "
+                 ".774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z")
+
+LEETCODE_PATH = ("M13.483 0a1.374 1.374 0 0 0-.961.438L7.116 6.226l-3.854 4.126a5.266 5.266 0 0 0-1.209 2.104 5.35 5.35 0 0 0-.125.513 5.527 5.527 0 0 0 "
+                 ".062 2.362 5.83 5.83 0 0 0 .349 1.017 5.938 5.938 0 0 0 1.271 1.818l4.277 4.193.039.038c2.248 2.165 5.852 2.133 8.063-.074l2.396-2.392"
+                 "c.54-.54.54-1.414.003-1.955a1.378 1.378 0 0 0-1.951-.003l-2.396 2.392a3.021 3.021 0 0 1-4.205.038l-.02-.019-4.276-4.193c-.652-.64-.972-1.469"
+                 "-.948-2.263a2.68 2.68 0 0 1 .066-.523 2.545 2.545 0 0 1 .619-1.164L9.13 8.114c1.058-1.134 3.204-1.27 4.43-.278l3.501 2.831c.593.48 1.461.387 "
+                 "1.94-.207a1.384 1.384 0 0 0-.207-1.943l-3.5-2.831c-.8-.647-1.766-1.045-2.774-1.202l2.015-2.158A1.384 1.384 0 0 0 13.483 0zm-2.866 12.815a1.38 "
+                 "1.38 0 0 0-1.38 1.382 1.38 1.38 0 0 0 1.38 1.382H20.79a1.38 1.38 0 0 0 1.38-1.382 1.38 1.38 0 0 0-1.38-1.382z")
+
+PILL_H = 38
+
+
+def pill(t, mode, label, icon, width):
+    """Rounded button: brand-coloured icon + label."""
+    fill = "#161b22" if mode == "dark" else "#f6f8fa"
+    return f"""<svg xmlns="http://www.w3.org/2000/svg" width="{width}" height="{PILL_H}" viewBox="0 0 {width} {PILL_H}" role="img" aria-label="{label}">
+  <rect x="0.5" y="0.5" width="{width-1}" height="{PILL_H-1}" rx="{PILL_H/2-0.5}" fill="{fill}" stroke="{t['line']}"/>
+  <g transform="translate(15,10) scale(0.75)">{icon}</g>
+  <text x="41" y="24.5" font-family="{FONT}" font-size="15" font-weight="500" fill="{t['text']}">{label}</text>
 </svg>
 """
 
 
-def link_github(t):
-    return f"""<svg xmlns="http://www.w3.org/2000/svg" width="112" height="34" viewBox="0 0 112 34" role="img" aria-label="GitHub">
-  <g transform="translate(2,5) scale(1.0)">
-    <path d="{GITHUB_PATH}" fill="{t['muted']}"/>
-  </g>
-  <text x="34" y="23.5" font-family="{FONT}" font-size="18" fill="{t['green']}">GitHub</text>
-</svg>
-"""
+def pill_icons(t, mode):
+    dark = mode == "dark"
+    green = t["green"]
+    return {
+        "email": ("Email", f'<g fill="none" stroke="{green}" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">'
+                           f'<rect x="2" y="5" width="20" height="14" rx="3"/><polyline points="3,7.5 12,14 21,7.5"/></g>'),
+        "github": ("GitHub", f'<path d="{GITHUB_PATH}" fill="{t["text"]}"/>'),
+        "linkedin": ("LinkedIn", f'<path d="{LINKEDIN_PATH}" fill="{"#3b8de0" if dark else "#0a66c2"}"/>'),
+        "codeforces": ("Codeforces",
+                       f'<rect x="0" y="7.5" width="6" height="13.5" rx="1.5" fill="#f5b921"/>'
+                       f'<rect x="9" y="3" width="6" height="18" rx="1.5" fill="#2f95d6"/>'
+                       f'<rect x="18" y="10.5" width="6" height="10.5" rx="1.5" fill="{"#f0525c" if dark else "#d32f3f"}"/>'),
+        "leetcode": ("LeetCode", f'<path d="{LEETCODE_PATH}" fill="#ffa116"/>'),
+    }
+
+
+def pill_width(label):
+    return round(41 + len(label) * 8.0 + 17)
 
 
 def github_icon(t):
@@ -132,9 +155,9 @@ def github_icon(t):
 
 def composition(t, counts):
     g = t["green"]
-    W, H = 340, 440
-    cx, cy = 195, 220
-    arms = {"left": 118, "right": 88, "top": 140, "bottom": 140}
+    W, H = 390, 540
+    cx, cy = 218, 268
+    arms = {"left": 112, "right": 84, "top": 170, "bottom": 170}
     total = sum(counts.values())
 
     def share(key):
@@ -142,7 +165,7 @@ def composition(t, counts):
             return 0, ""
         p = counts[key] * 100 / total
         r = round(p)
-        return p, ("<1%" if r == 0 else f"{r}%")
+        return p, ("&lt;1%" if r == 0 else f"{r}%")
 
     sh = {k: share(k) for k in counts}
     seg = lambda key, arm: 0 if sh[key][0] == 0 else max(5, arm * sh[key][0] / 100)
@@ -152,8 +175,8 @@ def composition(t, counts):
     B = seg("pull_requests", arms["bottom"])
 
     def glow(x2, y2):
-        return (f'<line x1="{cx}" y1="{cy}" x2="{x2}" y2="{y2}" stroke="{g}" stroke-width="7" stroke-linecap="round" opacity="0.55" filter="url(#glow)"/>'
-                f'<line x1="{cx}" y1="{cy}" x2="{x2}" y2="{y2}" stroke="{g}" stroke-width="3" stroke-linecap="round"/>'
+        return (f'<line x1="{cx}" y1="{cy}" x2="{x2}" y2="{y2}" stroke="{g}" stroke-width="11" stroke-linecap="round" opacity="0.5" filter="url(#glow)"/>'
+                f'<line x1="{cx}" y1="{cy}" x2="{x2}" y2="{y2}" stroke="{g}" stroke-width="4.5" stroke-linecap="round"/>'
                 f'<circle cx="{x2}" cy="{y2}" r="7" fill="{g}"/><circle cx="{x2}" cy="{y2}" r="2.6" fill="{t["dot_core"]}"/>')
 
     segs = ""
@@ -172,14 +195,14 @@ def composition(t, counts):
     return f"""<svg xmlns="http://www.w3.org/2000/svg" width="{W}" height="{H}" viewBox="0 0 {W} {H}" role="img" aria-label="{label}">
   <defs>
     <filter id="glow" x="-50%" y="-200%" width="200%" height="500%">
-      <feGaussianBlur stdDeviation="4" result="b"/>
+      <feGaussianBlur stdDeviation="5" result="b"/>
       <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
     </filter>
   </defs>
 
   <line x1="1" y1="12" x2="1" y2="{H-12}" stroke="{t['line']}" stroke-width="1"/>
 
-  <g stroke="{g}" stroke-width="3" stroke-linecap="round" opacity="0.9">
+  <g stroke="{g}" stroke-width="3" stroke-linecap="round" stroke-opacity="0.9">
     <line x1="{cx}" y1="{cy}" x2="{cx+arms['right']}" y2="{cy}"/>
     <line x1="{cx}" y1="{cy-arms['top']}" x2="{cx}" y2="{cy+arms['bottom']}"/>
     <line x1="{cx-arms['left']}" y1="{cy}" x2="{cx}" y2="{cy}"/>
@@ -207,8 +230,8 @@ def composition(t, counts):
 for mode, t in THEMES.items():
     write(f"name.{mode}.svg", name_svg(t))
     write(f"accent.{mode}.svg", accent(t))
-    write(f"email.{mode}.svg", link_email(t))
-    write(f"github-link.{mode}.svg", link_github(t))
+    for key, (label, icon) in pill_icons(t, mode).items():
+        write(f"pill-{key}.{mode}.svg", pill(t, mode, label, icon, pill_width(label)))
     write(f"github-icon.{mode}.svg", github_icon(t))
 
 counts = load_counts()

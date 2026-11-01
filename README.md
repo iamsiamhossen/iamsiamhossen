@@ -1,10 +1,9 @@
-<picture><source media="(prefers-color-scheme: dark)" srcset="./assets/composition.dark.svg"><source media="(prefers-color-scheme: light)" srcset="./assets/composition.light.svg"><img align="right" width="38%" src="./assets/composition.dark.svg" alt="Contribution composition chart"></picture>
+<picture><source media="(prefers-color-scheme: dark)" srcset="./assets/composition.dark.svg"><source media="(prefers-color-scheme: light)" srcset="./assets/composition.light.svg"><img align="right" width="34%" src="./assets/composition.dark.svg" alt="Contribution composition chart"></picture>
 
-<picture><source media="(prefers-color-scheme: dark)" srcset="./assets/name.dark.svg"><source media="(prefers-color-scheme: light)" srcset="./assets/name.light.svg"><img width="58%" src="./assets/name.dark.svg" alt="Siam Hossen"></picture>
+<picture><source media="(prefers-color-scheme: dark)" srcset="./assets/name.dark.svg"><source media="(prefers-color-scheme: light)" srcset="./assets/name.light.svg"><img width="380" src="./assets/name.dark.svg" alt="Siam Hossen"></picture>
 
 <p>
-  Computer Science &amp; Engineering<br>
-  Competitive Programming<br>
+  Computer&nbsp;Science&nbsp;&amp;&nbsp;Engineering&nbsp;| Competitive&nbsp;Programming<br>
   <picture><source media="(prefers-color-scheme: dark)" srcset="./assets/accent.dark.svg"><source media="(prefers-color-scheme: light)" srcset="./assets/accent.light.svg"><img src="./assets/accent.dark.svg" alt=""></picture>
 </p>
 
@@ -20,9 +19,10 @@
   Final year Computer Science and Engineering student at Khwaja Yunus Ali University, Sirajganj.
 </p>
 
-<p><a href="mailto:iamsiamhossen@gmail.com"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/email.dark.svg"><source media="(prefers-color-scheme: light)" srcset="./assets/email.light.svg"><img height="34" src="./assets/email.dark.svg" alt="Email"></picture></a>&nbsp;&nbsp;<a href="https://github.com/iamsiamhossen"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/github-link.dark.svg"><source media="(prefers-color-scheme: light)" srcset="./assets/github-link.light.svg"><img height="34" src="./assets/github-link.dark.svg" alt="GitHub"></picture></a></p>
-
 <br clear="right">
+
+<p><a href="mailto:iamsiamhossen@gmail.com"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/pill-email.dark.svg"><source media="(prefers-color-scheme: light)" srcset="./assets/pill-email.light.svg"><img height="38" src="./assets/pill-email.dark.svg" alt="Email"></picture></a>&nbsp;<a href="https://github.com/iamsiamhossen"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/pill-github.dark.svg"><source media="(prefers-color-scheme: light)" srcset="./assets/pill-github.light.svg"><img height="38" src="./assets/pill-github.dark.svg" alt="GitHub"></picture></a>&nbsp;<a href="https://www.linkedin.com/in/iamsiamhossen/"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/pill-linkedin.dark.svg"><source media="(prefers-color-scheme: light)" srcset="./assets/pill-linkedin.light.svg"><img height="38" src="./assets/pill-linkedin.dark.svg" alt="LinkedIn"></picture></a>&nbsp;<a href="https://codeforces.com/profile/iamsiamhossen"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/pill-codeforces.dark.svg"><source media="(prefers-color-scheme: light)" srcset="./assets/pill-codeforces.light.svg"><img height="38" src="./assets/pill-codeforces.dark.svg" alt="Codeforces"></picture></a>&nbsp;<a href="https://leetcode.com/u/iamsiamhossen/"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/pill-leetcode.dark.svg"><source media="(prefers-color-scheme: light)" srcset="./assets/pill-leetcode.light.svg"><img height="38" src="./assets/pill-leetcode.dark.svg" alt="LeetCode"></picture></a></p>
+
 <hr>
 
 <p align="center">

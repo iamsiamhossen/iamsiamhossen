@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="98" height="38" viewBox="0 0 98 38" role="img" aria-label="Email">
+  <rect x="0.5" y="0.5" width="97" height="37" rx="18.5" fill="#f6f8fa" stroke="#d0d7de"/>
+  <g transform="translate(15,10) scale(0.75)"><g fill="none" stroke="#1a9f3a" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="5" width="20" height="14" rx="3"/><polyline points="3,7.5 12,14 21,7.5"/></g></g>
+  <text x="41" y="24.5" font-family="-apple-system, 'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="15" font-weight="500" fill="#1f2328">Email</text>
+</svg>
