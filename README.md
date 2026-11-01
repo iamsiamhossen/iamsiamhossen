@@ -1,6 +1,6 @@
 <picture><source media="(prefers-color-scheme: dark)" srcset="./assets/composition.dark.svg"><source media="(prefers-color-scheme: light)" srcset="./assets/composition.light.svg"><img align="right" width="38%" src="./assets/composition.dark.svg" alt="Contribution composition chart"></picture>
 
-<picture><source media="(prefers-color-scheme: dark)" srcset="./assets/header.dark.svg"><source media="(prefers-color-scheme: light)" srcset="./assets/header.light.svg"><img width="58%" src="./assets/header.dark.svg" alt="Siam Hossen"></picture>
+<picture><source media="(prefers-color-scheme: dark)" srcset="./assets/name.dark.svg"><source media="(prefers-color-scheme: light)" srcset="./assets/name.light.svg"><img width="58%" src="./assets/name.dark.svg" alt="Siam Hossen"></picture>
 
 <p>
   Computer Science &amp; Engineering<br>

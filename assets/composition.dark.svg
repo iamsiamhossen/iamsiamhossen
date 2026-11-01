@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="340" height="440" viewBox="0 0 340 440" role="img" aria-label="Contribution composition, last 12 months: 0 commits, 0 pull requests, 0 issues, 0 code reviews">
+  <defs>
+    <filter id="glow" x="-50%" y="-200%" width="200%" height="500%">
+      <feGaussianBlur stdDeviation="4" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+
+  <line x1="1" y1="12" x2="1" y2="428" stroke="#30363d" stroke-width="1"/>
+
+  <g stroke="#3ddc5c" stroke-width="3" stroke-linecap="round" opacity="0.9">
+    <line x1="195" y1="220" x2="283" y2="220"/>
+    <line x1="195" y1="80" x2="195" y2="360"/>
+    <line x1="77" y1="220" x2="195" y2="220"/>
+  </g>
+
+  
+
+  <circle cx="195" cy="220" r="7.5" fill="#3ddc5c"/>
+  <circle cx="195" cy="220" r="3.2" fill="#d9ffe0"/>
+
+  <g font-family="-apple-system, 'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="16" fill="#e6edf3">
+    
+    <text x="195" y="58" text-anchor="middle">Code review</text>
+    
+    <text x="297" y="236" text-anchor="start">Issues</text>
+    
+    <text x="63" y="236" text-anchor="end">Commits</text>
+    
+    <text x="195" y="414" text-anchor="middle">Pull requests</text>
+  </g>
+</svg>

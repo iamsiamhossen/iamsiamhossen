@@ -82,7 +82,7 @@ def write(name, content):
         f.write(content)
 
 
-def header(t):
+def name_svg(t):
     # terminal icon + name only (subtitle and text are real HTML in README.md)
     return f"""<svg xmlns="http://www.w3.org/2000/svg" width="400" height="100" viewBox="0 0 400 100" role="img" aria-label="Siam Hossen">
   <g fill="none" stroke="{t['green']}" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round">
@@ -205,7 +205,7 @@ def composition(t, counts):
 
 
 for mode, t in THEMES.items():
-    write(f"header.{mode}.svg", header(t))
+    write(f"name.{mode}.svg", name_svg(t))
     write(f"accent.{mode}.svg", accent(t))
     write(f"email.{mode}.svg", link_email(t))
     write(f"github-link.{mode}.svg", link_github(t))
