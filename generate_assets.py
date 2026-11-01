@@ -83,15 +83,20 @@ def write(name, content):
 
 
 def header(t):
-    # terminal icon, name, subtitle, short accent line
-    return f"""<svg xmlns="http://www.w3.org/2000/svg" width="540" height="190" viewBox="0 0 540 190" role="img" aria-label="Siam Hossen, Computer Science and Engineering, Competitive Programming">
+    # terminal icon + name only (subtitle and text are real HTML in README.md)
+    return f"""<svg xmlns="http://www.w3.org/2000/svg" width="400" height="100" viewBox="0 0 400 100" role="img" aria-label="Siam Hossen">
   <g fill="none" stroke="{t['green']}" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round">
-    <polyline points="4,8 17,19 4,30"/>
-    <line x1="23" y1="32" x2="38" y2="32"/>
+    <polyline points="4,6 17,17 4,28"/>
+    <line x1="23" y1="30" x2="38" y2="30"/>
   </g>
-  <text x="2" y="104" font-family="{FONT}" font-size="54" font-weight="700" fill="{t['text']}">Siam Hossen</text>
-  <text x="3" y="144" font-family="{FONT}" font-size="17.5" fill="{t['text']}">Computer Science &amp; Engineering | Competitive Programming</text>
-  <rect x="3" y="165" width="46" height="3.5" rx="1.75" fill="{t['green']}"/>
+  <text x="2" y="88" font-family="{FONT}" font-size="54" font-weight="700" fill="{t['text']}">Siam Hossen</text>
+</svg>
+"""
+
+
+def accent(t):
+    return f"""<svg xmlns="http://www.w3.org/2000/svg" width="48" height="6" viewBox="0 0 48 6" role="presentation">
+  <rect x="0" y="1" width="46" height="3.5" rx="1.75" fill="{t['green']}"/>
 </svg>
 """
 
@@ -201,6 +206,7 @@ def composition(t, counts):
 
 for mode, t in THEMES.items():
     write(f"header.{mode}.svg", header(t))
+    write(f"accent.{mode}.svg", accent(t))
     write(f"email.{mode}.svg", link_email(t))
     write(f"github-link.{mode}.svg", link_github(t))
     write(f"github-icon.{mode}.svg", github_icon(t))

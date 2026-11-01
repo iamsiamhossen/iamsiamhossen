@@ -1,14 +1,12 @@
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/composition.dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="./assets/composition.light.svg">
-  <img align="right" width="340" src="./assets/composition.dark.svg" alt="Contribution composition chart">
-</picture>
+<picture><source media="(prefers-color-scheme: dark)" srcset="./assets/composition.dark.svg"><source media="(prefers-color-scheme: light)" srcset="./assets/composition.light.svg"><img align="right" width="38%" src="./assets/composition.dark.svg" alt="Contribution composition chart"></picture>
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/header.dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="./assets/header.light.svg">
-  <img width="540" src="./assets/header.dark.svg" alt="Siam Hossen, Computer Science and Engineering, Competitive Programming">
-</picture>
+<picture><source media="(prefers-color-scheme: dark)" srcset="./assets/header.dark.svg"><source media="(prefers-color-scheme: light)" srcset="./assets/header.light.svg"><img width="58%" src="./assets/header.dark.svg" alt="Siam Hossen"></picture>
+
+<p>
+  Computer Science &amp; Engineering<br>
+  Competitive Programming<br>
+  <picture><source media="(prefers-color-scheme: dark)" srcset="./assets/accent.dark.svg"><source media="(prefers-color-scheme: light)" srcset="./assets/accent.light.svg"><img src="./assets/accent.dark.svg" alt=""></picture>
+</p>
 
 <p>
   I am a Computer Science and Engineering student interested in programming, problem solving, and software engineering.
@@ -22,21 +20,7 @@
   Final year Computer Science and Engineering student at Khwaja Yunus Ali University, Sirajganj.
 </p>
 
-<a href="mailto:iamsiamhossen@gmail.com">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="./assets/email.dark.svg">
-    <source media="(prefers-color-scheme: light)" srcset="./assets/email.light.svg">
-    <img height="34" src="./assets/email.dark.svg" alt="Email">
-  </picture>
-</a>
-&nbsp;·&nbsp;
-<a href="https://github.com/iamsiamhossen">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="./assets/github-link.dark.svg">
-    <source media="(prefers-color-scheme: light)" srcset="./assets/github-link.light.svg">
-    <img height="34" src="./assets/github-link.dark.svg" alt="GitHub">
-  </picture>
-</a>
+<p><a href="mailto:iamsiamhossen@gmail.com"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/email.dark.svg"><source media="(prefers-color-scheme: light)" srcset="./assets/email.light.svg"><img height="34" src="./assets/email.dark.svg" alt="Email"></picture></a>&nbsp;&nbsp;<a href="https://github.com/iamsiamhossen"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/github-link.dark.svg"><source media="(prefers-color-scheme: light)" srcset="./assets/github-link.light.svg"><img height="34" src="./assets/github-link.dark.svg" alt="GitHub"></picture></a></p>
 
 <br clear="right">
 <hr>
@@ -70,9 +54,5 @@
   &nbsp;&nbsp;
   <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/git/git-original.svg" alt="Git" />
   &nbsp;&nbsp;
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="./assets/github-icon.dark.svg">
-    <source media="(prefers-color-scheme: light)" srcset="./assets/github-icon.light.svg">
-    <img height="40" src="./assets/github-icon.dark.svg" alt="GitHub">
-  </picture>
+  <picture><source media="(prefers-color-scheme: dark)" srcset="./assets/github-icon.dark.svg"><source media="(prefers-color-scheme: light)" srcset="./assets/github-icon.light.svg"><img height="40" src="./assets/github-icon.dark.svg" alt="GitHub"></picture>
 </p>
