@@ -35,13 +35,6 @@
 <br clear="right">
 
 <p>
-  <a href="https://github.com/iamsiamhossen">
-    <picture>
-      <source media="(prefers-color-scheme: dark)" srcset="./assets/pill-github.dark.svg">
-      <source media="(prefers-color-scheme: light)" srcset="./assets/pill-github.light.svg">
-      <img height="38" src="./assets/pill-github.dark.svg" alt="GitHub">
-    </picture>
-  </a>&nbsp;
   <a href="https://www.linkedin.com/in/iamsiamhossen/">
     <picture>
       <source media="(prefers-color-scheme: dark)" srcset="./assets/pill-linkedin.dark.svg">
