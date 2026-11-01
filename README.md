@@ -1,30 +1,85 @@
 
-# Siam Hossen
+<h1 align="left">Siam Hossen</h1>
 
-**Computer Science & Engineering | Competitive Programming**
+<p>
+  <strong>Computer Science & Engineering | Competitive Programming</strong>
+</p>
 
-I am a Computer Science and Engineering student interested in programming, problem solving, and software engineering.
+<p>
+  I am a Computer Science and Engineering student interested in programming, problem solving, and software engineering.
+</p>
 
-I enjoy competitive programming and working with different programming languages and technologies. Currently, I am learning C# and ASP.NET Core for backend engineering while continuing to improve my problem-solving skills.
+<p>
+  I enjoy competitive programming and working with different programming languages and technologies. Currently, I am learning C# and ASP.NET Core for backend engineering while continuing to improve my problem-solving skills.
+</p>
 
-Final-year Computer Science and Engineering student at Khwaja Yunus Ali University, Sirajganj.
+<p>
+  Final-year Computer Science and Engineering student at Khwaja Yunus Ali University, Sirajganj.
+</p>
 
-[Email](mailto:iamsiamhossen@gmail.com) · [GitHub](https://github.com/iamsiamhossen)
+<p>
+  <a href="mailto:iamsiamhossen@gmail.com">Email</a>
+  &nbsp;·&nbsp;
+  <a href="https://github.com/iamsiamhossen">GitHub</a>
+</p>
 
----
+<br>
 
-<table>
-<tr>
-<td width="50%" valign="middle">
-
-### GitHub Activity
-
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=iamsiamhossen&bg_color=0d1117&color=c9d1d9&line=2ea043&point=2ea043&area=true&hide_border=true" width="100%" alt="GitHub contribution activity graph" />
-
-</td>
-</tr>
+<table width="100%">
+  <tr>
+    <td width="55%" valign="middle">
+      <h3>Technical Interests</h3>
+      <p>Competitive Programming</p>
+      <p>Backend Engineering</p>
+      <p>Software Engineering</p>
+      <br>
+      <p>
+        <a href="https://github.com/iamsiamhossen">
+          View my repositories →
+        </a>
+      </p>
+    </td>
+    <td width="45%" valign="middle">
+      <h3 align="center">GitHub Activity</h3>
+      <img
+        src="./assets/composition.dark.svg"
+        width="100%"
+        alt="GitHub contribution composition for Siam Hossen"
+      />
+    </td>
+  </tr>
 </table>
 
+<hr>
+
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=c,cpp,cs,python,java,dotnet,react,tailwind,html,css,js,mysql,firebase,git,github&theme=dark" />
+  <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/c/c-original.svg" />
+  &nbsp;&nbsp;
+  <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/cplusplus/cplusplus-original.svg" />
+  &nbsp;&nbsp;
+  <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/csharp/csharp-original.svg" />
+  &nbsp;&nbsp;
+  <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original.svg" />
+  &nbsp;&nbsp;
+  <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/java/java-original.svg" />
+  &nbsp;&nbsp;
+  <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/dotnetcore/dotnetcore-original.svg" />
+  &nbsp;&nbsp;
+  <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original.svg" />
+  &nbsp;&nbsp;
+  <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/tailwindcss/tailwindcss-original.svg" />
+  &nbsp;&nbsp;
+  <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original.svg" />
+  &nbsp;&nbsp;
+  <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original.svg" />
+  &nbsp;&nbsp;
+  <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg" />
+  &nbsp;&nbsp;
+  <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mysql/mysql-original.svg" />
+  &nbsp;&nbsp;
+  <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/firebase/firebase-plain.svg" />
+  &nbsp;&nbsp;
+  <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/git/git-original.svg" />
+  &nbsp;&nbsp;
+  <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/github/github-original.svg" />
 </p>
