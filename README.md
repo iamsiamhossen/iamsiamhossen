@@ -1,10 +1,23 @@
-<picture><source media="(prefers-color-scheme: dark)" srcset="./assets/composition.dark.svg"><source media="(prefers-color-scheme: light)" srcset="./assets/composition.light.svg"><img align="right" width="34%" src="./assets/composition.dark.svg" alt="Contribution composition chart"></picture>
+<img
+  align="right"
+  width="34%"
+  src="./assets/activity-cross.svg"
+  alt="GitHub contribution activity"
+/>
 
-<picture><source media="(prefers-color-scheme: dark)" srcset="./assets/name.dark.svg"><source media="(prefers-color-scheme: light)" srcset="./assets/name.light.svg"><img width="380" src="./assets/name.dark.svg" alt="Siam Hossen"></picture>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/name.dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="./assets/name.light.svg">
+  <img width="380" src="./assets/name.dark.svg" alt="Siam Hossen">
+</picture>
 
 <p>
   Computer&nbsp;Science&nbsp;&amp;&nbsp;Engineering&nbsp;| Competitive&nbsp;Programming<br>
-  <picture><source media="(prefers-color-scheme: dark)" srcset="./assets/accent.dark.svg"><source media="(prefers-color-scheme: light)" srcset="./assets/accent.light.svg"><img src="./assets/accent.dark.svg" alt=""></picture>
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="./assets/accent.dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="./assets/accent.light.svg">
+    <img src="./assets/accent.dark.svg" alt="">
+  </picture>
 </p>
 
 <p>
@@ -21,7 +34,36 @@
 
 <br clear="right">
 
-<p><a href="https://github.com/iamsiamhossen"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/pill-github.dark.svg"><source media="(prefers-color-scheme: light)" srcset="./assets/pill-github.light.svg"><img height="38" src="./assets/pill-github.dark.svg" alt="GitHub"></picture></a>&nbsp;<a href="https://www.linkedin.com/in/iamsiamhossen/"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/pill-linkedin.dark.svg"><source media="(prefers-color-scheme: light)" srcset="./assets/pill-linkedin.light.svg"><img height="38" src="./assets/pill-linkedin.dark.svg" alt="LinkedIn"></picture></a>&nbsp;<a href="https://codeforces.com/profile/iamsiamhossen"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/pill-codeforces.dark.svg"><source media="(prefers-color-scheme: light)" srcset="./assets/pill-codeforces.light.svg"><img height="38" src="./assets/pill-codeforces.dark.svg" alt="Codeforces"></picture></a>&nbsp;<a href="https://leetcode.com/u/iamsiamhossen/"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/pill-leetcode.dark.svg"><source media="(prefers-color-scheme: light)" srcset="./assets/pill-leetcode.light.svg"><img height="38" src="./assets/pill-leetcode.dark.svg" alt="LeetCode"></picture></a></p>
+<p>
+  <a href="https://github.com/iamsiamhossen">
+    <picture>
+      <source media="(prefers-color-scheme: dark)" srcset="./assets/pill-github.dark.svg">
+      <source media="(prefers-color-scheme: light)" srcset="./assets/pill-github.light.svg">
+      <img height="38" src="./assets/pill-github.dark.svg" alt="GitHub">
+    </picture>
+  </a>&nbsp;
+  <a href="https://www.linkedin.com/in/iamsiamhossen/">
+    <picture>
+      <source media="(prefers-color-scheme: dark)" srcset="./assets/pill-linkedin.dark.svg">
+      <source media="(prefers-color-scheme: light)" srcset="./assets/pill-linkedin.light.svg">
+      <img height="38" src="./assets/pill-linkedin.dark.svg" alt="LinkedIn">
+    </picture>
+  </a>&nbsp;
+  <a href="https://codeforces.com/profile/iamsiamhossen">
+    <picture>
+      <source media="(prefers-color-scheme: dark)" srcset="./assets/pill-codeforces.dark.svg">
+      <source media="(prefers-color-scheme: light)" srcset="./assets/pill-codeforces.light.svg">
+      <img height="38" src="./assets/pill-codeforces.dark.svg" alt="Codeforces">
+    </picture>
+  </a>&nbsp;
+  <a href="https://leetcode.com/u/iamsiamhossen/">
+    <picture>
+      <source media="(prefers-color-scheme: dark)" srcset="./assets/pill-leetcode.dark.svg">
+      <source media="(prefers-color-scheme: light)" srcset="./assets/pill-leetcode.light.svg">
+      <img height="38" src="./assets/pill-leetcode.dark.svg" alt="LeetCode">
+    </picture>
+  </a>
+</p>
 
 <hr>
 
@@ -54,5 +96,9 @@
   &nbsp;&nbsp;
   <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/git/git-original.svg" alt="Git" />
   &nbsp;&nbsp;
-  <picture><source media="(prefers-color-scheme: dark)" srcset="./assets/github-icon.dark.svg"><source media="(prefers-color-scheme: light)" srcset="./assets/github-icon.light.svg"><img height="40" src="./assets/github-icon.dark.svg" alt="GitHub"></picture>
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="./assets/github-icon.dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="./assets/github-icon.light.svg">
+    <img height="40" src="./assets/github-icon.dark.svg" alt="GitHub">
+  </picture>
 </p>
