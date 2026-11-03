@@ -35,13 +35,21 @@ async function fetchCodeforces() {
   const u = info.result[0];
 
   const rating = await getJson(`${base}/user.rating?handle=${CF_HANDLE}`);
-  const status = await getJson(`${base}/user.status?handle=${CF_HANDLE}`);
+  const status = await getJson(`${base}/user.status?handle=${CF_HANDLE}&from=1&count=100000`);
 
   const subs = status.result || [];
   const solvedSet = new Set(
     subs
       .filter((s) => s.verdict === "OK")
       .map((s) => `${s.problem.contestId ?? s.problem.problemsetName}-${s.problem.index}`)
+  );
+
+  const okSubs = subs.filter((s) => s.verdict === "OK");
+  const gymSolved = new Set(
+    okSubs.filter((s) => (s.problem.contestId ?? 0) >= 100000).map((s) => `${s.problem.contestId}-${s.problem.index}`)
+  ).size;
+  console.log(
+    `CF debug: ${subs.length} submissions, ${okSubs.length} OK verdicts, ${solvedSet.size} unique solved (gym: ${gymSolved})`
   );
 
   return {
