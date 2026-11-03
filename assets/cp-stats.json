@@ -1,0 +1,31 @@
+{
+  "cf": {
+    "handle": "iamsiamhossen",
+    "name": "Siam Hossen",
+    "rank": "newbie",
+    "rating": 769,
+    "maxRating": 1031,
+    "contests": 67,
+    "solved": 464,
+    "submissions": 877,
+    "friends": 21
+  },
+  "lc": {
+    "username": "iamsiamhossen",
+    "ranking": 2124629,
+    "solved": 75,
+    "total": 4100,
+    "easy": {
+      "s": 50,
+      "t": 975
+    },
+    "medium": {
+      "s": 21,
+      "t": 2138
+    },
+    "hard": {
+      "s": 4,
+      "t": 987
+    }
+  }
+}
