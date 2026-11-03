@@ -63,15 +63,7 @@
 <h3>Competitive programming</h3>
 
 <p align="left">
-  <a href="https://codeforces.com/profile/iamsiamhossen">
-    <img height="200" alt="Codeforces Stats"
-      src="https://codeforces-readme-stats.vercel.app/api/card?username=iamsiamhossen&theme=dark" />
-  </a>
-  &nbsp;
-  <a href="https://leetcode.com/u/iamsiamhossen/">
-    <img height="200" alt="LeetCode Stats"
-      src="https://leetcard.jacoblin.cool/iamsiamhossen?theme=dark&font=JetBrains%20Mono&ext=contest" />
-  </a>
+  <img src="./assets/cp-stats.svg" width="860" alt="Competitive programming stats: Codeforces and LeetCode">
 </p>
 
 <hr>
