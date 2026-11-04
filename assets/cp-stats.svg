@@ -68,7 +68,7 @@
     <rect x="600" y="124" width="11.9" height="6" rx="3" fill="#3fb950"/>
 
     <text x="600" y="158" class="row">Medium</text>
-    <text x="832" y="158" text-anchor="end" class="mu">21 / 2,138</text>
+    <text x="832" y="158" text-anchor="end" class="mu">21 / 2,139</text>
     <rect x="600" y="166" width="232" height="6" rx="3" style="fill:var(--tr)"/>
     <rect x="600" y="166" width="4.0" height="6" rx="3" fill="#f0b429"/>
 
