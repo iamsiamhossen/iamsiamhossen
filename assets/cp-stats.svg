@@ -55,10 +55,10 @@
   <g>
     <text x="462" y="44" class="lbl">LEETCODE</text>
     <text x="462" y="74" class="name">iamsiamhossen</text>
-    <text x="828" y="44" text-anchor="end" class="mu">#2130660</text>
+    <text x="828" y="44" text-anchor="end" class="mu">#2131424</text>
 
     <circle cx="520" cy="158" r="46" stroke-width="9" style="stroke:var(--tr)"/>
-    <circle cx="520" cy="158" r="46" stroke-width="9" stroke-linecap="round" stroke-dasharray="5.28 289.03" transform="rotate(-90 520 158)" style="stroke:var(--ac)"/>
+    <circle cx="520" cy="158" r="46" stroke-width="9" stroke-linecap="round" stroke-dasharray="5.27 289.03" transform="rotate(-90 520 158)" style="stroke:var(--ac)"/>
     <text x="520" y="166" text-anchor="middle" class="num" style="font-size:26px">75</text>
     <text x="520" y="186" text-anchor="middle" class="sub" style="font-size:9px">SOLVED</text>
 
@@ -68,7 +68,7 @@
     <rect x="600" y="124" width="11.9" height="6" rx="3" fill="#3fb950"/>
 
     <text x="600" y="158" class="row">Medium</text>
-    <text x="832" y="158" text-anchor="end" class="mu">21 / 2,145</text>
+    <text x="832" y="158" text-anchor="end" class="mu">21 / 2,146</text>
     <rect x="600" y="166" width="232" height="6" rx="3" style="fill:var(--tr)"/>
     <rect x="600" y="166" width="4.0" height="6" rx="3" fill="#f0b429"/>
 
