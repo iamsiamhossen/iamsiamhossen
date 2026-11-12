@@ -43,9 +43,9 @@
 
     <line x1="32" y1="172" x2="398" y2="172" style="stroke:var(--bd)"/>
 
-    <text x="32" y="205" class="num">465</text>
+    <text x="32" y="205" class="num">467</text>
     <text x="32" y="224" class="sub">SOLVED</text>
-    <text x="150" y="205" class="num">879</text>
+    <text x="150" y="205" class="num">883</text>
     <text x="150" y="224" class="sub">SUBMISSIONS</text>
     <text x="290" y="205" class="num">21</text>
     <text x="290" y="224" class="sub">FRIENDS</text>
