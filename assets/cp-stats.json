@@ -14,18 +14,18 @@
     "username": "iamsiamhossen",
     "ranking": 2134709,
     "solved": 75,
-    "total": 4110,
+    "total": 4114,
     "easy": {
       "s": 50,
-      "t": 975
+      "t": 976
     },
     "medium": {
       "s": 21,
-      "t": 2146
+      "t": 2148
     },
     "hard": {
       "s": 4,
-      "t": 989
+      "t": 990
     }
   }
 }
