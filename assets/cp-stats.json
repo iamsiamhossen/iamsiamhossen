@@ -12,20 +12,20 @@
   },
   "lc": {
     "username": "iamsiamhossen",
-    "ranking": 2139632,
+    "ranking": 2140323,
     "solved": 75,
-    "total": 4115,
+    "total": 4119,
     "easy": {
       "s": 50,
-      "t": 976
+      "t": 977
     },
     "medium": {
       "s": 21,
-      "t": 2148
+      "t": 2150
     },
     "hard": {
       "s": 4,
-      "t": 991
+      "t": 992
     }
   }
 }
